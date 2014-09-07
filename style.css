@@ -1,0 +1,21 @@
+body {
+  margin:0;
+  padding:0;
+  background-color:#e6e6e6;
+}
+
+#top 
+{
+	height:28px;
+	width:auto;
+	margin-top:0px;
+	background-image:url('images/top.png');
+}
+
+#top a 
+{
+	font-size:13px;
+	text-decoration:none;
+	color:black;
+	padding:10px 5px;
+}
