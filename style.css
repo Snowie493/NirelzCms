@@ -45,3 +45,15 @@ body {
 	float:right;
 }
 
+#left-wrapper
+{
+	width:228px;
+	height:713px;
+}
+
+#left-wrapper #bg 
+{
+	min-height:960px;
+	width:228px;
+	background-image:url('images/leftside-bg.jpg');
+}
