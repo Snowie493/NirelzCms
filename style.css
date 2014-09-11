@@ -14,8 +14,34 @@ body {
 
 #top a 
 {
-	font-size:13px;
+	font-size:14px;
 	text-decoration:none;
 	color:black;
-	padding:10px 5px;
+	padding-left:30px;
+	position:relative;
+	top:5px;
 }
+
+#top #right a 
+{
+	font-size:14px;
+	text-decoration:none;
+	color:black;
+	right:30px;
+	top:-10px;
+	padding-right:0px;
+	float:right;
+}
+
+#top #right p
+{
+	font-size:14px;
+	text-decoration: none;
+	color:black;
+	position:relative;
+	top:-24px;
+	right:30px;
+	padding-right:5px;
+	float:right;
+}
+
