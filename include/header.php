@@ -1,4 +1,5 @@
 <?php
+  session_start();
 include('/config/vars.php');
 ?>
 <html>
@@ -6,7 +7,7 @@ include('/config/vars.php');
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <meta charset="UTF-8">
   <meta name="description" content="Web Design">
-  <meta name="author" content="Tim Levinsson and Nirelz">
+  <meta name="author" content="Nirelz">
   <title><?php echo $title ?></title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" href="images/favicon.ico">
