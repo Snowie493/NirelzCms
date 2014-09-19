@@ -3,6 +3,7 @@ $host = "localhost";
 $user = "root";
 $pass = "ascent";
 $db = "auth";
+$chardb = "char";
 
 $connection = mysql_connect($host, $user, $pass, $db);
 if (!$connection){

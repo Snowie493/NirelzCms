@@ -1,59 +1,265 @@
+/* Body */
 body {
   margin:0;
   padding:0;
-  background-color:#e6e6e6;
+  background-image:url('images/bg.jpg');
+  background-repeat:no-repeat;
+  background-size: 100% auto;
+  background-color:#000000;
+}
+/* End Body */
+
+#logo {
+  height:68px;
+  width:472px;
+  margin-top:275px;
+  margin-left:-50%;
+  background-image:url('images/logo.png');
 }
 
-#top 
-{
-	height:28px;
-	width:auto;
-	margin-top:0px;
-	background-image:url('images/top.png');
+/* Nav */
+#navs {
+  box-shadow: 1px 1px 1px white; 
+  top: 0; 
+  left: 0; 
+  right: 0;
 }
 
-#top a 
-{
-	font-size:14px;
-	text-decoration:none;
-	color:black;
-	padding-left:30px;
-	position:relative;
-	top:5px;
+.navlist {
+  background-color:#333;
+	width: 100%;
+	text-align:center;
 }
 
-#top #right a 
-{
-	font-size:14px;
-	text-decoration:none;
-	color:black;
-	right:30px;
-	top:-10px;
-	padding-right:0px;
-	float:right;
+.navlist ul {
+	margin: 0;
+	padding: 0;
+	display:block;
 }
 
-#top #right p
-{
-	font-size:14px;
+.navlist ul li {
+	display:inline-block;
+	margin-right:-5px;
+}
+
+.navlist ul li a {
 	text-decoration: none;
-	color:black;
-	position:relative;
-	top:-24px;
-	right:30px;
-	padding-right:5px;
-	float:right;
+	color: white; 
+	padding: 10px 45px;
+	display:inline-block;
+	font-family:myriad pro;
+	font-size:18px;
+	text-transform:uppercase;
 }
 
-#left-wrapper
-{
-	width:228px;
-	height:713px;
+.navlist ul li a:hover {
+  background-color:black;
+}
+/* Nav */
+#wrapper {
+  width:1300px;
+  margin:0 auto;
 }
 
-#left-wrapper #bg 
+#position {
+  min-height:565px;
+  width:1285px;
+  margin-top:25px;
+  background-color:#292b29;
+  padding:5px;
+  border:1px solid black;
+  border-radius:5px;
+  margin-bottom:100px;
+}
+
+aside {
+  float:right;
+  width:300px;
+}
+
+#BoxBody {
+  width:980px;
+}
+
+.SideTools {
+  width:100%;
+  margin-bottom:5px;
+}
+
+.tool {
+  width:100%;
+  margin-bottom:2px;
+}
+
+.tool a {
+  padding:10px 20px;
+  margin:0;
+  text-transform:uppercase;
+  font-size:20px;
+  color:#3a3225;
+  text-decoration:none;
+  display:block;
+}
+
+.tool a:hover {
+  color:#5f4a29;
+}
+
+.SideTitle {
+  width:100%;
+  background-image:url('images/sidebar-title.jpg');
+  text-align:center;
+  text-transform:uppercase;
+  font-family:Myriad Pro;
+  color:#5f4a29;
+  font-size:18px;
+  padding:10px 0px;
+  height:20px;
+}
+
+.SideBody {
+  padding-bottom:13px;
+  width:100%;
+  background-color:#0d0f0d;
+}
+
+#slider_cont
 {
-	min-height:960px;
-	width:228px;
-	background-image:url('images/leftside-bg.jpg');
+    height:298px;
+    width:978px;
+    margin: 0 auto; 
+    margin-top:0px;
+    border:1px solid black;
+}
+
+#slideshow 
+{
+    position:absolute;
+}
+
+#slideshow img 
+{
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:8;
+}
+
+#slideshow IMG.active 
+{
+    z-index:10;
+}
+
+#slideshow IMG.last-active 
+{
+    z-index:9;
+}
+
+.Bar {
+  width:100%;
+  height:40px;
+  margin-top:10px;
+  border-radius: 8px 8px 0px 0px;
+  background-image:url('images/sidebar-title.jpg');
+}
+
+.bartitle {
+  text-align:left;
+  font-size:21px;
+  line-height:40px;
+  padding-left:20px;
+  font-family:Myriad Pro;
+  color:#5f4a29;
+}
+
+.upndown {
+  position:relative;
+  top:-46px;
+  margin-right:19px;
+  height:30px;
+  width:30px;
+  left:930px;
+  background-image:url('images/close.png');
+  cursor:pointer;
+}
+
+.MainBody {
+  margin-top:-16px;
+  width:100%;
+  min-height:300px;
+  background-color:rgb(20, 20, 20);
+}
+
+.MainBody p {
+  color:white;
+  font-size:16px;
+  font-family: Myriad Pro;
+  padding-top:10px;
+  padding-left:10px;
+}
+
+/* Form Design */
+.pass {
+  margin-left:25px;
+  margin-top:10px;
+  width:250px;
+  height:35px;
+  background-image:url('images/loginbox_password.png');
+  background-color:transparent;
+  padding-left:35px;
+  border:none;
+  outline:none;
+  text-transform:uppercase;
+  font-family: Myriad Pro;
+  color:#5a5a5a;
+}
+
+.uname {
+  margin-left:25px;
+  margin-top:10px;
+  width:250px;
+  height:35px;
+  background-image:url('images/loginbox_username.png');
+  background-color:transparent;
+  padding-left:35px;
+  border:none;
+  outline:none;
+  text-transform:uppercase;
+  font-family: Myriad Pro;
+  color:#5a5a5a;
+}
+
+.loginbutton {
+  width:60px;
+  height:25px;
+  margin-left:50px;
+  margin-top:10px;
+  border-radius:3px;
+  background-color:#3a3939;
+  color:white;
+  border:none;
+  font-size:10px;
+  text-transform:uppercase;
+}
+
+.loginbutton:hover {
+  background-color:#4e4d4d;
+}
+
+::-webkit-input-placeholder {
+    color: #5a5a5a;
+}
+:-moz-placeholder {
+    color: #5a5a5a;
+}
+::-moz-placeholder {
+    color: #5a5a5a;
+}
+:-ms-input-placeholder {
+    color: #5a5a5a;
+}
+
+#foot01 {
+  color:rgb(70, 70, 70);
+  margin-top:-90px;
 }
