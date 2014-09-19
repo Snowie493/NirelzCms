@@ -1,6 +1,6 @@
   <div id="BoxBody">
 
-    <div class="Bar">
+    <div class="Bar2">
       <div class="bartitle">Information Page</div>
     </div>
     <div class="MainBody">

@@ -20,10 +20,16 @@
         </div>
       </div>
     <?php
-    }else{
-
-    }
-  ?>
+    }else{ ?>
+      <div class="SideTools">
+        <div class="SideTitle">
+          Account information
+        </div>
+        <div class="SideBody">
+          <p style="margin-top:0px; padding-left:5px; padding-top:5px; color:#5f4a29;">Welcome <?php echo $_SESSION['username'] ?></p>
+        </div>
+      </div>
+    <?php } ?>
     
     <div class="SideTools">
       <div class="SideTitle">
@@ -38,15 +44,14 @@
           <?php
             }else{ ?>
               <a href="models/logout.php">Logout</a>
+              <a href="#">Vote</a>
+              <a href="#">Donate</a>
+              <a href="#">Shop</a>
             <?php } ?>
           <a href="#">Armory</a>
-          <a href="#">Recruit</a>
-          <a href="#">Apply for GM</a>
           <a href="#">Connection Guide</a>
           <a href="#">Changelog</a>
           <a href="#">Bugtracker</a>
-          <a href="#">Vote</a>
-          <a href="#">Donate</a>
           <a href="#">Downloads</a>
           <a href="#">Staff List</a>
         </div>

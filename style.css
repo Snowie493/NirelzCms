@@ -124,6 +124,14 @@ aside {
   background-image:url('images/sidebar-title.jpg');
 }
 
+.Bar2 {
+  width:100%;
+  height:55px;
+  margin-top:10px;
+  border-radius: 8px 8px 0px 0px;
+  background-image:url('images/sidebar-title.jpg');
+}
+
 .bartitle {
   text-align:left;
   font-size:21px;
@@ -144,6 +152,11 @@ aside {
   cursor:pointer;
 }
 
+.avatar {
+  margin-top:15px;
+  margin-left:15px;
+}
+
 .MainBody {
   margin-top:-16px;
   width:100%;
@@ -151,8 +164,14 @@ aside {
   background-color:rgb(20, 20, 20);
 }
 
+#text {
+  margin-top:-180px;
+}
+
 .MainBody p {
   color:white;
+  width:750px;
+  margin-left:150px;
   font-size:16px;
   font-family: Myriad Pro;
   padding-top:10px;
