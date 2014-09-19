@@ -36,4 +36,3 @@ include('/config/vars.php');
   </script>
 </head>
 <body>
-<div id="navs">

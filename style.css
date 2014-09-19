@@ -17,45 +17,6 @@ body {
   background-image:url('images/logo.png');
 }
 
-/* Nav */
-#navs {
-  box-shadow: 1px 1px 1px white; 
-  top: 0; 
-  left: 0; 
-  right: 0;
-}
-
-.navlist {
-  background-color:#333;
-	width: 100%;
-	text-align:center;
-}
-
-.navlist ul {
-	margin: 0;
-	padding: 0;
-	display:block;
-}
-
-.navlist ul li {
-	display:inline-block;
-	margin-right:-5px;
-}
-
-.navlist ul li a {
-	text-decoration: none;
-	color: white; 
-	padding: 10px 45px;
-	display:inline-block;
-	font-family:myriad pro;
-	font-size:18px;
-	text-transform:uppercase;
-}
-
-.navlist ul li a:hover {
-  background-color:black;
-}
-/* Nav */
 #wrapper {
   width:1300px;
   margin:0 auto;
