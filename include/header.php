@@ -8,6 +8,7 @@ include('/config/vars.php');
   <meta charset="UTF-8">
   <meta name="description" content="Web Design">
   <meta name="author" content="Nirelz">
+  <meta name="sub-author" content="Tim Levinsson">
   <title><?php echo $title ?></title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon" type="image/png" href="images/favicon.ico">
