@@ -25,8 +25,16 @@
         <div class="SideTitle">
           Account information
         </div>
-        <div class="SideBody">
-          <p style="margin-top:0px; padding-left:5px; padding-top:5px; color:#5f4a29;">Welcome <?php echo $_SESSION['username'] ?></p>
+        <div class="SideBody"><center>
+          <p style="margin-top:0px; padding-top:5px; color:#5f4a29;">Welcome <b style="color:#1fca29;"><?php echo $_SESSION['username'] ?></b></p></center>
+          <div id="accinfo">
+            Expanion: WotLK<br />
+            Account Rank: Player<br />
+            Account Status: Active<br />
+            Memeber Since: 2014-09-18<br />
+            Vote Points: 0<br />
+            Donation Points 0<br />
+          </div>
         </div>
       </div>
     <?php } ?>
@@ -49,7 +57,7 @@
               <a href="#">Shop</a>
             <?php } ?>
           <a href="#">Armory</a>
-          <a href="#">Connection Guide</a>
+          <a href="?p=info">Connection Guide</a>
           <a href="#">Changelog</a>
           <a href="#">Bugtracker</a>
           <a href="#">Downloads</a>

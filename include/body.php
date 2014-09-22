@@ -21,5 +21,7 @@ switch($page)
     case "register_success":
         @include('pages/register_success.php');
         break;
+    default:
+        @include('pages/error.php');
 }
 ?>
